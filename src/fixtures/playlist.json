@@ -1,0 +1,431 @@
+{
+ "contents": {
+  "twoColumnBrowseResultsRenderer": {
+   "secondaryContents": {
+    "sectionListRenderer": {
+     "contents": [
+      {
+       "musicPlaylistShelfRenderer": {
+        "playlistId": "RDCLAK5uy_kf6c8Ga41e1bLKYCaulkiZ1NIVYJnr3Jk",
+        "contents": [
+         {
+          "musicResponsiveListItemRenderer": {
+           "thumbnail": {
+            "musicThumbnailRenderer": {
+             "thumbnail": {
+              "thumbnails": [
+               {
+                "url": "https://i.ytimg.com/vi/MV_3Dpw-BRY/hqdefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCggAEOADGC0guwJIWg&rs=AMzJL3kwwTIVU7CZAhJlPRDHIAt2dkHArQ",
+                "width": 400,
+                "height": 225
+               }
+              ]
+             }
+            }
+           },
+           "overlay": {
+            "musicItemThumbnailOverlayRenderer": {
+             "content": {
+              "musicPlayButtonRenderer": {
+               "playNavigationEndpoint": {
+                "watchEndpoint": {
+                 "videoId": "MV_3Dpw-BRY",
+                 "playlistId": "RDCLAK5uy_kf6c8Ga41e1bLKYCaulkiZ1NIVYJnr3Jk",
+                 "params": "8gECGAM%3D",
+                 "playlistSetVideoId": "56B44F6D10557CC6",
+                 "watchEndpointMusicSupportedConfigs": {
+                  "watchEndpointMusicConfig": {
+                   "musicVideoType": "MUSIC_VIDEO_TYPE_OMV"
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+           },
+           "flexColumns": [
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "Nightcall",
+                 "navigationEndpoint": {
+                  "watchEndpoint": {
+                   "videoId": "MV_3Dpw-BRY",
+                   "playlistId": "RDCLAK5uy_kf6c8Ga41e1bLKYCaulkiZ1NIVYJnr3Jk",
+                   "params": "8gECGAM%3D",
+                   "watchEndpointMusicSupportedConfigs": {
+                    "watchEndpointMusicConfig": {
+                     "musicVideoType": "MUSIC_VIDEO_TYPE_OMV"
+                    }
+                   }
+                  }
+                 }
+                }
+               ]
+              }
+             }
+            },
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "Kavinsky",
+                 "navigationEndpoint": {
+                  "browseEndpoint": {
+                   "browseId": "UC3V5kzHK2r4rbbXlf4OpFmw",
+                   "browseEndpointContextSupportedConfigs": {
+                    "browseEndpointContextMusicConfig": {
+                     "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                    }
+                   }
+                  }
+                 }
+                }
+               ]
+              }
+             }
+            },
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {}
+             }
+            }
+           ],
+           "fixedColumns": [
+            {
+             "musicResponsiveListItemFixedColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "4:17"
+                }
+               ]
+              },
+              "size": "MUSIC_RESPONSIVE_LIST_ITEM_FIXED_COLUMN_SIZE_SMALL"
+             }
+            }
+           ],
+           "playlistItemData": {
+            "playlistSetVideoId": "56B44F6D10557CC6",
+            "videoId": "MV_3Dpw-BRY"
+           }
+          }
+         },
+         {
+          "musicResponsiveListItemRenderer": {
+           "thumbnail": {
+            "musicThumbnailRenderer": {
+             "thumbnail": {
+              "thumbnails": [
+               {
+                "url": "https://i.ytimg.com/vi/mMfxI3r_LyA/hqdefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCggAEOADGC0guwJIWg&rs=AMzJL3nx1FBspuc2zE7ttKX9ifJ0IRujtA",
+                "width": 400,
+                "height": 225
+               }
+              ]
+             }
+            }
+           },
+           "overlay": {
+            "musicItemThumbnailOverlayRenderer": {
+             "content": {
+              "musicPlayButtonRenderer": {
+               "playNavigationEndpoint": {
+                "watchEndpoint": {
+                 "videoId": "mMfxI3r_LyA",
+                 "playlistId": "RDCLAK5uy_kf6c8Ga41e1bLKYCaulkiZ1NIVYJnr3Jk",
+                 "params": "8gECGAM%3D",
+                 "playlistSetVideoId": "289F4A46DF0A30D2",
+                 "watchEndpointMusicSupportedConfigs": {
+                  "watchEndpointMusicConfig": {
+                   "musicVideoType": "MUSIC_VIDEO_TYPE_OMV"
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+           },
+           "flexColumns": [
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "Lady",
+                 "navigationEndpoint": {
+                  "watchEndpoint": {
+                   "videoId": "mMfxI3r_LyA",
+                   "playlistId": "RDCLAK5uy_kf6c8Ga41e1bLKYCaulkiZ1NIVYJnr3Jk",
+                   "params": "8gECGAM%3D",
+                   "watchEndpointMusicSupportedConfigs": {
+                    "watchEndpointMusicConfig": {
+                     "musicVideoType": "MUSIC_VIDEO_TYPE_OMV"
+                    }
+                   }
+                  }
+                 }
+                }
+               ]
+              }
+             }
+            },
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "ModjoOfficial",
+                 "navigationEndpoint": {
+                  "browseEndpoint": {
+                   "browseId": "UC74sX8oY-MVC7_3KzlnFgzQ",
+                   "browseEndpointContextSupportedConfigs": {
+                    "browseEndpointContextMusicConfig": {
+                     "pageType": "MUSIC_PAGE_TYPE_USER_CHANNEL"
+                    }
+                   }
+                  }
+                 }
+                }
+               ]
+              }
+             }
+            },
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {}
+             }
+            }
+           ],
+           "fixedColumns": [
+            {
+             "musicResponsiveListItemFixedColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "3:42"
+                }
+               ]
+              },
+              "size": "MUSIC_RESPONSIVE_LIST_ITEM_FIXED_COLUMN_SIZE_SMALL"
+             }
+            }
+           ],
+           "playlistItemData": {
+            "playlistSetVideoId": "289F4A46DF0A30D2",
+            "videoId": "mMfxI3r_LyA"
+           }
+          }
+         },
+         {
+          "musicResponsiveListItemRenderer": {
+           "thumbnail": {
+            "musicThumbnailRenderer": {
+             "thumbnail": {
+              "thumbnails": [
+               {
+                "url": "https://i.ytimg.com/vi/FGBhQbmPwH8/hqdefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCggAEOADGC0guwJIWg&rs=AMzJL3n3_qY4XRLapf4YMTv5EuAp3xtbfw",
+                "width": 400,
+                "height": 225
+               }
+              ]
+             }
+            }
+           },
+           "overlay": {
+            "musicItemThumbnailOverlayRenderer": {
+             "content": {
+              "musicPlayButtonRenderer": {
+               "playNavigationEndpoint": {
+                "watchEndpoint": {
+                 "videoId": "FGBhQbmPwH8",
+                 "playlistId": "RDCLAK5uy_kf6c8Ga41e1bLKYCaulkiZ1NIVYJnr3Jk",
+                 "params": "8gECGAM%3D",
+                 "playlistSetVideoId": "017208FAA85233F9",
+                 "watchEndpointMusicSupportedConfigs": {
+                  "watchEndpointMusicConfig": {
+                   "musicVideoType": "MUSIC_VIDEO_TYPE_OMV"
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+           },
+           "flexColumns": [
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "One More Time",
+                 "navigationEndpoint": {
+                  "watchEndpoint": {
+                   "videoId": "FGBhQbmPwH8",
+                   "playlistId": "RDCLAK5uy_kf6c8Ga41e1bLKYCaulkiZ1NIVYJnr3Jk",
+                   "params": "8gECGAM%3D",
+                   "watchEndpointMusicSupportedConfigs": {
+                    "watchEndpointMusicConfig": {
+                     "musicVideoType": "MUSIC_VIDEO_TYPE_OMV"
+                    }
+                   }
+                  }
+                 }
+                }
+               ]
+              }
+             }
+            },
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "Daft Punk",
+                 "navigationEndpoint": {
+                  "browseEndpoint": {
+                   "browseId": "UCRr1xG_2WIDs18a6cIiCxeA",
+                   "browseEndpointContextSupportedConfigs": {
+                    "browseEndpointContextMusicConfig": {
+                     "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                    }
+                   }
+                  }
+                 }
+                }
+               ]
+              }
+             }
+            },
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {}
+             }
+            }
+           ],
+           "fixedColumns": [
+            {
+             "musicResponsiveListItemFixedColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "5:22"
+                }
+               ]
+              },
+              "size": "MUSIC_RESPONSIVE_LIST_ITEM_FIXED_COLUMN_SIZE_SMALL"
+             }
+            }
+           ],
+           "playlistItemData": {
+            "playlistSetVideoId": "017208FAA85233F9",
+            "videoId": "FGBhQbmPwH8"
+           }
+          }
+         }
+        ]
+       }
+      }
+     ],
+     "continuations": [
+      {
+       "nextContinuationData": {
+        "continuation": "4qmFsgI9Ei1WTFJEQ0xBSzV1eV9rZjZjOEdhNDFlMWJMS1lDYXVsa2laMU5JVllKbnIzSmsaDGtnRURDTTBHOEFFQQ%3D%3D"
+       }
+      }
+     ]
+    }
+   },
+   "tabs": [
+    {
+     "tabRenderer": {
+      "content": {
+       "sectionListRenderer": {
+        "contents": [
+         {
+          "musicResponsiveHeaderRenderer": {
+           "thumbnail": {
+            "musicThumbnailRenderer": {
+             "thumbnail": {
+              "thumbnails": [
+               {
+                "url": "https://yt3.googleusercontent.com/u0FaikE0O08GDgu__8CAzPbFJhIwjRexqGz_0T81DMEl1eKx7pl2doIrDuRr3SycUCGw99Dve3wv7bSR=w226-h226-l90-rj",
+                "width": 226,
+                "height": 226
+               },
+               {
+                "url": "https://yt3.googleusercontent.com/u0FaikE0O08GDgu__8CAzPbFJhIwjRexqGz_0T81DMEl1eKx7pl2doIrDuRr3SycUCGw99Dve3wv7bSR=w544-h544-l90-rj",
+                "width": 544,
+                "height": 544
+               }
+              ]
+             }
+            }
+           },
+           "title": {
+            "runs": [
+             {
+              "text": "Best Of French Touch"
+             }
+            ]
+           },
+           "subtitle": {
+            "runs": [
+             {
+              "text": "Playlist"
+             },
+             {
+              "text": " • "
+             },
+             {
+              "text": "2026"
+             }
+            ]
+           },
+           "description": {
+            "musicDescriptionShelfRenderer": {
+             "description": {
+              "runs": [
+               {
+                "text": "Listen to the heroes of French Touch and their successors who keep making us move..."
+               }
+              ]
+             },
+             "shelfStyle": "MUSIC_SHELF_STYLE_OPEN_DIALOG_ON_CLICK"
+            }
+           },
+           "secondSubtitle": {
+            "runs": [
+             {
+              "text": "63 songs"
+             },
+             {
+              "text": " • "
+             },
+             {
+              "text": "4 hours"
+             }
+            ]
+           }
+          }
+         }
+        ]
+       }
+      }
+     }
+    }
+   ]
+  }
+ },
+ "microformat": {
+  "microformatDataRenderer": {
+   "urlCanonical": "https://music.youtube.com/playlist?list=RDCLAK5uy_kf6c8Ga41e1bLKYCaulkiZ1NIVYJnr3Jk"
+  }
+ }
+}

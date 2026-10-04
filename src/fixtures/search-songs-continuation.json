@@ -1,0 +1,569 @@
+{
+ "contents": {
+  "sectionListRenderer": {
+   "contents": [
+    {
+     "itemSectionRenderer": {
+      "contents": [
+       {
+        "messageRenderer": {
+         "button": {
+          "buttonRenderer": {
+           "style": "STYLE_TEXT",
+           "isDisabled": false,
+           "text": {
+            "simpleText": "About these results"
+           },
+           "icon": {
+            "iconType": "INFO_OUTLINE"
+           },
+           "navigationEndpoint": {
+            "urlEndpoint": {
+             "url": "https://www.youtube.com/howyoutubeworks/product-features/search/",
+             "target": "TARGET_NEW_WINDOW"
+            }
+           },
+           "iconPosition": "BUTTON_ICON_POSITION_TYPE_RIGHT_OF_TEXT"
+          }
+         },
+         "style": {
+          "value": "RENDER_STYLE_PANEL"
+         }
+        }
+       }
+      ]
+     }
+    }
+   ]
+  }
+ },
+ "continuationContents": {
+  "musicShelfContinuation": {
+   "contents": [
+    {
+     "musicResponsiveListItemRenderer": {
+      "thumbnail": {
+       "musicThumbnailRenderer": {
+        "thumbnail": {
+         "thumbnails": [
+          {
+           "url": "https://yt3.googleusercontent.com/fgqj_3-DKrpBQNAoK9RmUAbW6-JaDbcPRF4ZsWjsLa1U-3m6X7pvg2QF5QrZLvs6HfTFS-d8DlKzYANK=w60-h60-l90-rj",
+           "width": 60,
+           "height": 60
+          },
+          {
+           "url": "https://yt3.googleusercontent.com/fgqj_3-DKrpBQNAoK9RmUAbW6-JaDbcPRF4ZsWjsLa1U-3m6X7pvg2QF5QrZLvs6HfTFS-d8DlKzYANK=w120-h120-l90-rj",
+           "width": 120,
+           "height": 120
+          }
+         ]
+        }
+       }
+      },
+      "overlay": {
+       "musicItemThumbnailOverlayRenderer": {
+        "content": {
+         "musicPlayButtonRenderer": {
+          "playNavigationEndpoint": {
+           "watchEndpoint": {
+            "videoId": "osFFpaI_DDs",
+            "watchEndpointMusicSupportedConfigs": {
+             "watchEndpointMusicConfig": {
+              "musicVideoType": "MUSIC_VIDEO_TYPE_ATV"
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      },
+      "flexColumns": [
+       {
+        "musicResponsiveListItemFlexColumnRenderer": {
+         "text": {
+          "runs": [
+           {
+            "text": "GLBTM (Studio Outtakes) [Edit]",
+            "navigationEndpoint": {
+             "watchEndpoint": {
+              "videoId": "osFFpaI_DDs",
+              "watchEndpointMusicSupportedConfigs": {
+               "watchEndpointMusicConfig": {
+                "musicVideoType": "MUSIC_VIDEO_TYPE_ATV"
+               }
+              }
+             }
+            }
+           }
+          ]
+         }
+        }
+       },
+       {
+        "musicResponsiveListItemFlexColumnRenderer": {
+         "text": {
+          "runs": [
+           {
+            "text": "Daft Punk",
+            "navigationEndpoint": {
+             "browseEndpoint": {
+              "browseId": "UCRr1xG_2WIDs18a6cIiCxeA",
+              "browseEndpointContextSupportedConfigs": {
+               "browseEndpointContextMusicConfig": {
+                "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+               }
+              }
+             }
+            }
+           },
+           {
+            "text": " • "
+           },
+           {
+            "text": "GLBTM (Studio Outtakes)",
+            "navigationEndpoint": {
+             "browseEndpoint": {
+              "browseId": "MPREb_X1DQ1j0PPrX",
+              "browseEndpointContextSupportedConfigs": {
+               "browseEndpointContextMusicConfig": {
+                "pageType": "MUSIC_PAGE_TYPE_ALBUM"
+               }
+              }
+             }
+            }
+           },
+           {
+            "text": " • "
+           },
+           {
+            "text": "2:39"
+           }
+          ]
+         }
+        }
+       },
+       {
+        "musicResponsiveListItemFlexColumnRenderer": {
+         "text": {
+          "runs": [
+           {
+            "text": "2.3M plays"
+           }
+          ]
+         }
+        }
+       }
+      ],
+      "playlistItemData": {
+       "videoId": "osFFpaI_DDs"
+      }
+     }
+    },
+    {
+     "musicResponsiveListItemRenderer": {
+      "thumbnail": {
+       "musicThumbnailRenderer": {
+        "thumbnail": {
+         "thumbnails": [
+          {
+           "url": "https://yt3.googleusercontent.com/YikJNY42l1-Tpvb4OiFLyOL0yczlaIcMaF46eP8GeM2N5QBT-lXIjPaedZSsMUEyPp1ps7TbyfXT0GM=w60-h60-l90-rj",
+           "width": 60,
+           "height": 60
+          },
+          {
+           "url": "https://yt3.googleusercontent.com/YikJNY42l1-Tpvb4OiFLyOL0yczlaIcMaF46eP8GeM2N5QBT-lXIjPaedZSsMUEyPp1ps7TbyfXT0GM=w120-h120-l90-rj",
+           "width": 120,
+           "height": 120
+          }
+         ]
+        }
+       }
+      },
+      "overlay": {
+       "musicItemThumbnailOverlayRenderer": {
+        "content": {
+         "musicPlayButtonRenderer": {
+          "playNavigationEndpoint": {
+           "watchEndpoint": {
+            "videoId": "bH9dv7LpCyk",
+            "watchEndpointMusicSupportedConfigs": {
+             "watchEndpointMusicConfig": {
+              "musicVideoType": "MUSIC_VIDEO_TYPE_ATV"
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      },
+      "flexColumns": [
+       {
+        "musicResponsiveListItemFlexColumnRenderer": {
+         "text": {
+          "runs": [
+           {
+            "text": "Human After All (SebastiAn Remix)",
+            "navigationEndpoint": {
+             "watchEndpoint": {
+              "videoId": "bH9dv7LpCyk",
+              "watchEndpointMusicSupportedConfigs": {
+               "watchEndpointMusicConfig": {
+                "musicVideoType": "MUSIC_VIDEO_TYPE_ATV"
+               }
+              }
+             }
+            }
+           }
+          ]
+         }
+        }
+       },
+       {
+        "musicResponsiveListItemFlexColumnRenderer": {
+         "text": {
+          "runs": [
+           {
+            "text": "Daft Punk",
+            "navigationEndpoint": {
+             "browseEndpoint": {
+              "browseId": "UCRr1xG_2WIDs18a6cIiCxeA",
+              "browseEndpointContextSupportedConfigs": {
+               "browseEndpointContextMusicConfig": {
+                "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+               }
+              }
+             }
+            }
+           },
+           {
+            "text": " • "
+           },
+           {
+            "text": "Human After All (Remixes)",
+            "navigationEndpoint": {
+             "browseEndpoint": {
+              "browseId": "MPREb_TP971moS91e",
+              "browseEndpointContextSupportedConfigs": {
+               "browseEndpointContextMusicConfig": {
+                "pageType": "MUSIC_PAGE_TYPE_ALBUM"
+               }
+              }
+             }
+            }
+           },
+           {
+            "text": " • "
+           },
+           {
+            "text": "4:48"
+           }
+          ]
+         }
+        }
+       },
+       {
+        "musicResponsiveListItemFlexColumnRenderer": {
+         "text": {
+          "runs": [
+           {
+            "text": "1.1M plays"
+           }
+          ]
+         }
+        }
+       }
+      ],
+      "playlistItemData": {
+       "videoId": "bH9dv7LpCyk"
+      }
+     }
+    },
+    {
+     "musicResponsiveListItemRenderer": {
+      "thumbnail": {
+       "musicThumbnailRenderer": {
+        "thumbnail": {
+         "thumbnails": [
+          {
+           "url": "https://yt3.googleusercontent.com/R5gMfIj_BHfnfJv_X24gjqUskPT9gwonal56ydS9bIkxsHxaaebzNwHjbIruM54pvcMwcI9PpTJpYPAJ=w60-h60-l90-rj",
+           "width": 60,
+           "height": 60
+          },
+          {
+           "url": "https://yt3.googleusercontent.com/R5gMfIj_BHfnfJv_X24gjqUskPT9gwonal56ydS9bIkxsHxaaebzNwHjbIruM54pvcMwcI9PpTJpYPAJ=w120-h120-l90-rj",
+           "width": 120,
+           "height": 120
+          }
+         ]
+        }
+       }
+      },
+      "overlay": {
+       "musicItemThumbnailOverlayRenderer": {
+        "content": {
+         "musicPlayButtonRenderer": {
+          "playNavigationEndpoint": {
+           "watchEndpoint": {
+            "videoId": "-xFur30vvVc",
+            "watchEndpointMusicSupportedConfigs": {
+             "watchEndpointMusicConfig": {
+              "musicVideoType": "MUSIC_VIDEO_TYPE_ATV"
+             }
+            }
+           }
+          }
+         }
+        }
+       }
+      },
+      "flexColumns": [
+       {
+        "musicResponsiveListItemFlexColumnRenderer": {
+         "text": {
+          "runs": [
+           {
+            "text": "Touch (2021 Epilogue) (feat. Paul Williams)",
+            "navigationEndpoint": {
+             "watchEndpoint": {
+              "videoId": "-xFur30vvVc",
+              "watchEndpointMusicSupportedConfigs": {
+               "watchEndpointMusicConfig": {
+                "musicVideoType": "MUSIC_VIDEO_TYPE_ATV"
+               }
+              }
+             }
+            }
+           }
+          ]
+         }
+        }
+       },
+       {
+        "musicResponsiveListItemFlexColumnRenderer": {
+         "text": {
+          "runs": [
+           {
+            "text": "Daft Punk",
+            "navigationEndpoint": {
+             "browseEndpoint": {
+              "browseId": "UCRr1xG_2WIDs18a6cIiCxeA",
+              "browseEndpointContextSupportedConfigs": {
+               "browseEndpointContextMusicConfig": {
+                "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+               }
+              }
+             }
+            }
+           },
+           {
+            "text": " & "
+           },
+           {
+            "text": "Paul Williams",
+            "navigationEndpoint": {
+             "browseEndpoint": {
+              "browseId": "UCPtp29kketDMCRawl_lT2oQ",
+              "browseEndpointContextSupportedConfigs": {
+               "browseEndpointContextMusicConfig": {
+                "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+               }
+              }
+             }
+            }
+           },
+           {
+            "text": " • "
+           },
+           {
+            "text": "Random Access Memories (10th Anniversary Edition)",
+            "navigationEndpoint": {
+             "browseEndpoint": {
+              "browseId": "MPREb_eMBjPmWySjR",
+              "browseEndpointContextSupportedConfigs": {
+               "browseEndpointContextMusicConfig": {
+                "pageType": "MUSIC_PAGE_TYPE_ALBUM"
+               }
+              }
+             }
+            }
+           },
+           {
+            "text": " • "
+           },
+           {
+            "text": "3:00"
+           }
+          ]
+         }
+        }
+       },
+       {
+        "musicResponsiveListItemFlexColumnRenderer": {
+         "text": {
+          "runs": [
+           {
+            "text": "33M plays"
+           }
+          ]
+         }
+        }
+       }
+      ],
+      "playlistItemData": {
+       "videoId": "-xFur30vvVc"
+      }
+     }
+    }
+   ],
+   "continuations": [
+    {
+     "nextContinuationData": {
+      "continuation": "EqYDEglkYWZ0IHB1bmsamANFZ1dLQVFJSUFVZ29hZ29RQ1JBRkVBb1FBeEFFZ2dFTGIzTkdSbkJoU1Y5RVJIT0NBUXRpU0Rsa2RqZE1jRU41YTRJQkN5MTRSblZ5TXpCMmRsWmpnZ0VMZFdrMk0wdFhTVzl2Y1RpQ0FRdHJhRzV2YTFjelRYY3lOSUlCQ3pSRU4zVTFTMFkzVTFBNGdnRUxabUUxU1ZkSVJHSm1kRW1DQVF0eFpUaFJOMjFxZUdwcFo0SUJDM0ZRVWs1SlNIaE1hRzFqZ2dFTFNtSTJaMk52VWpJMk5sV0NBUXRwVlRkdlJqUlBXRnBUUllJQkMxcEdXazAyYWtSVVYyUTBnZ0VMVlZKNlQwZEdYMUZIYkhPQ0FRc3pNa28zWWxwSWRtRTVUWUlCQ3paUlYzQklhRWhuVkVRMGdnRUxkMjFUYTFVMlVqbGFhVGlDQVF0UFYybFdTazFuYlhNNVJZSUJDMUpTVFdKb1JXUnRhRmwzZ2dFTGNWaEpPRGRsVFZBdFluT0NBUXN6WDJjeWRXNDFUVE0xTUElM0QlM0QY8erQLg%3D%3D"
+     }
+    }
+   ],
+   "autoReloadWhenEmpty": false
+  }
+ },
+ "header": {
+  "musicHeaderRenderer": {
+   "header": {
+    "chipCloudRenderer": {
+     "chips": [
+      {
+       "chipCloudChipRenderer": {
+        "style": {
+         "styleType": "STYLE_SECONDARY"
+        },
+        "navigationEndpoint": {
+         "searchEndpoint": {
+          "query": "daft punk"
+         }
+        },
+        "icon": {
+         "iconType": "CLOSE"
+        },
+        "isSelected": false,
+        "uniqueId": "Clear filters"
+       }
+      },
+      {
+       "chipCloudChipRenderer": {
+        "style": {
+         "styleType": "STYLE_DEFAULT"
+        },
+        "text": {
+         "runs": [
+          {
+           "text": "Albums"
+          }
+         ]
+        },
+        "navigationEndpoint": {
+         "searchEndpoint": {
+          "query": "daft punk",
+          "params": "EgWKAQIYAWoKEAkQBRAKEAMQBA%3D%3D"
+         }
+        },
+        "isSelected": false,
+        "uniqueId": "Albums"
+       }
+      },
+      {
+       "chipCloudChipRenderer": {
+        "style": {
+         "styleType": "STYLE_DEFAULT"
+        },
+        "text": {
+         "runs": [
+          {
+           "text": "Artists"
+          }
+         ]
+        },
+        "navigationEndpoint": {
+         "searchEndpoint": {
+          "query": "daft punk",
+          "params": "EgWKAQIgAWoKEAkQBRAKEAMQBA%3D%3D"
+         }
+        },
+        "isSelected": false,
+        "uniqueId": "Artists"
+       }
+      },
+      {
+       "chipCloudChipRenderer": {
+        "style": {
+         "styleType": "STYLE_DEFAULT"
+        },
+        "text": {
+         "runs": [
+          {
+           "text": "Community playlists"
+          }
+         ]
+        },
+        "navigationEndpoint": {
+         "searchEndpoint": {
+          "query": "daft punk",
+          "params": "EgeKAQQoAEABagoQCRAFEAoQAxAE"
+         }
+        },
+        "isSelected": false,
+        "uniqueId": "Community playlists"
+       }
+      },
+      {
+       "chipCloudChipRenderer": {
+        "style": {
+         "styleType": "STYLE_PRIMARY"
+        },
+        "text": {
+         "runs": [
+          {
+           "text": "Songs"
+          }
+         ]
+        },
+        "navigationEndpoint": {
+         "searchEndpoint": {
+          "query": "daft punk",
+          "params": "EgWKAQIIAWoKEAkQBRAKEAMQBA%3D%3D"
+         }
+        },
+        "isSelected": true,
+        "uniqueId": "Songs"
+       }
+      },
+      {
+       "chipCloudChipRenderer": {
+        "style": {
+         "styleType": "STYLE_DEFAULT"
+        },
+        "text": {
+         "runs": [
+          {
+           "text": "Videos"
+          }
+         ]
+        },
+        "navigationEndpoint": {
+         "searchEndpoint": {
+          "query": "daft punk",
+          "params": "EgWKAQIQAWoKEAkQBRAKEAMQBA%3D%3D"
+         }
+        },
+        "isSelected": false,
+        "uniqueId": "Videos"
+       }
+      }
+     ],
+     "collapsedRowCount": 1,
+     "horizontalScrollable": true
+    }
+   }
+  }
+ }
+}

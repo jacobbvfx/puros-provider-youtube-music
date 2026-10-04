@@ -1,0 +1,679 @@
+{
+ "contents": {
+  "twoColumnBrowseResultsRenderer": {
+   "secondaryContents": {
+    "sectionListRenderer": {
+     "contents": [
+      {
+       "musicPlaylistShelfRenderer": {
+        "playlistId": "PLwNv9Hhd8gZjNoQdpd2kBa3fwXNeJjzDX",
+        "header": {
+         "musicSideAlignedItemRenderer": {
+          "startItems": [
+           {
+            "sortFilterSubMenuRenderer": {
+             "subMenuItems": [
+              {
+               "title": "Top voted",
+               "selected": false,
+               "navigationEndpoint": {
+                "executeEntityCommand": {
+                 "commandEntityKey": "ElNtdXNpY19zb3J0X29wdGlvbl9jb21tYW5kX2VudGl0eV9rZXlfVkxQTHdOdjlIaGQ4Z1pqTm9RZHBkMmtCYTNmd1hOZUpqekRYX1RPUF9WT1RFRCDxAigB"
+                }
+               }
+              },
+              {
+               "title": "Default ordering",
+               "selected": true,
+               "navigationEndpoint": {
+                "executeEntityCommand": {
+                 "commandEntityKey": "ElFtdXNpY19zb3J0X29wdGlvbl9jb21tYW5kX2VudGl0eV9rZXlfVkxQTHdOdjlIaGQ4Z1pqTm9RZHBkMmtCYTNmd1hOZUpqekRYX05PX1NPUlQg8QIoAQ%3D%3D"
+                }
+               }
+              },
+              {
+               "title": "Newest first",
+               "selected": false,
+               "navigationEndpoint": {
+                "executeEntityCommand": {
+                 "commandEntityKey": "ElZtdXNpY19zb3J0X29wdGlvbl9jb21tYW5kX2VudGl0eV9rZXlfVkxQTHdOdjlIaGQ4Z1pqTm9RZHBkMmtCYTNmd1hOZUpqekRYX05FV0VTVF9BRERFRCDxAigB"
+                }
+               }
+              },
+              {
+               "title": "Oldest first",
+               "selected": false,
+               "navigationEndpoint": {
+                "executeEntityCommand": {
+                 "commandEntityKey": "ElZtdXNpY19zb3J0X29wdGlvbl9jb21tYW5kX2VudGl0eV9rZXlfVkxQTHdOdjlIaGQ4Z1pqTm9RZHBkMmtCYTNmd1hOZUpqekRYX09MREVTVF9BRERFRCDxAigB"
+                }
+               }
+              },
+              {
+               "title": "Title",
+               "selected": false,
+               "navigationEndpoint": {
+                "executeEntityCommand": {
+                 "commandEntityKey": "ElNtdXNpY19zb3J0X29wdGlvbl9jb21tYW5kX2VudGl0eV9rZXlfVkxQTHdOdjlIaGQ4Z1pqTm9RZHBkMmtCYTNmd1hOZUpqekRYX0FfWl9USVRMRSDxAigB"
+                }
+               }
+              },
+              {
+               "title": "Artist",
+               "selected": false,
+               "navigationEndpoint": {
+                "executeEntityCommand": {
+                 "commandEntityKey": "ElRtdXNpY19zb3J0X29wdGlvbl9jb21tYW5kX2VudGl0eV9rZXlfVkxQTHdOdjlIaGQ4Z1pqTm9RZHBkMmtCYTNmd1hOZUpqekRYX0FfWl9BUlRJU1Qg8QIoAQ%3D%3D"
+                }
+               }
+              },
+              {
+               "title": "Album",
+               "selected": false,
+               "navigationEndpoint": {
+                "executeEntityCommand": {
+                 "commandEntityKey": "ElVtdXNpY19zb3J0X29wdGlvbl9jb21tYW5kX2VudGl0eV9rZXlfVkxQTHdOdjlIaGQ4Z1pqTm9RZHBkMmtCYTNmd1hOZUpqekRYX0FfWl9SRUxFQVNFIPECKAE%3D"
+                }
+               }
+              }
+             ],
+             "title": "Sort",
+             "icon": {
+              "iconType": "SORT"
+             }
+            }
+           }
+          ]
+         }
+        },
+        "contents": [
+         {
+          "musicResponsiveListItemRenderer": {
+           "thumbnail": {
+            "musicThumbnailRenderer": {
+             "thumbnail": {
+              "thumbnails": [
+               {
+                "url": "https://i.ytimg.com/vi/3JWTaaS7LdU/hqdefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCggAEOADGC0guwJIWg&rs=AMzJL3lPS_OLdqUc180cFQ1YoTdO6lJEmw",
+                "width": 400,
+                "height": 225
+               }
+              ]
+             }
+            }
+           },
+           "overlay": {
+            "musicItemThumbnailOverlayRenderer": {
+             "content": {
+              "musicPlayButtonRenderer": {
+               "playNavigationEndpoint": {
+                "watchEndpoint": {
+                 "videoId": "3JWTaaS7LdU",
+                 "playlistId": "PLwNv9Hhd8gZjNoQdpd2kBa3fwXNeJjzDX",
+                 "playlistSetVideoId": "56B44F6D10557CC6",
+                 "watchEndpointMusicSupportedConfigs": {
+                  "watchEndpointMusicConfig": {
+                   "musicVideoType": "MUSIC_VIDEO_TYPE_OMV"
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+           },
+           "flexColumns": [
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "I Will Always Love You",
+                 "navigationEndpoint": {
+                  "watchEndpoint": {
+                   "videoId": "3JWTaaS7LdU",
+                   "playlistId": "PLwNv9Hhd8gZjNoQdpd2kBa3fwXNeJjzDX",
+                   "watchEndpointMusicSupportedConfigs": {
+                    "watchEndpointMusicConfig": {
+                     "musicVideoType": "MUSIC_VIDEO_TYPE_OMV"
+                    }
+                   }
+                  }
+                 }
+                }
+               ]
+              }
+             }
+            },
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "Whitney Houston",
+                 "navigationEndpoint": {
+                  "browseEndpoint": {
+                   "browseId": "UCcoxwwIh_afLwJHVBEQw62Q",
+                   "browseEndpointContextSupportedConfigs": {
+                    "browseEndpointContextMusicConfig": {
+                     "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                    }
+                   }
+                  }
+                 }
+                }
+               ]
+              }
+             }
+            },
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {}
+             }
+            }
+           ],
+           "fixedColumns": [
+            {
+             "musicResponsiveListItemFixedColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "4:34"
+                }
+               ]
+              },
+              "size": "MUSIC_RESPONSIVE_LIST_ITEM_FIXED_COLUMN_SIZE_SMALL"
+             }
+            }
+           ],
+           "playlistItemData": {
+            "playlistSetVideoId": "56B44F6D10557CC6",
+            "videoId": "3JWTaaS7LdU",
+            "voteSortValue": 1529556567
+           }
+          }
+         },
+         {
+          "musicResponsiveListItemRenderer": {
+           "thumbnail": {
+            "musicThumbnailRenderer": {
+             "thumbnail": {
+              "thumbnails": [
+               {
+                "url": "https://i.ytimg.com/vi/qq09UkPRdFY/hqdefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCggAEOADGC0guwJIWg&rs=AMzJL3nowM5sUCQeqoO3pOyRKiDZQU2RdA",
+                "width": 400,
+                "height": 225
+               }
+              ]
+             }
+            }
+           },
+           "overlay": {
+            "musicItemThumbnailOverlayRenderer": {
+             "content": {
+              "musicPlayButtonRenderer": {
+               "playNavigationEndpoint": {
+                "watchEndpoint": {
+                 "videoId": "qq09UkPRdFY",
+                 "playlistId": "PLwNv9Hhd8gZjNoQdpd2kBa3fwXNeJjzDX",
+                 "playlistSetVideoId": "090796A75D153932",
+                 "watchEndpointMusicSupportedConfigs": {
+                  "watchEndpointMusicConfig": {
+                   "musicVideoType": "MUSIC_VIDEO_TYPE_OMV"
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+           },
+           "flexColumns": [
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "Fantasy (Official 4K Video)",
+                 "navigationEndpoint": {
+                  "watchEndpoint": {
+                   "videoId": "qq09UkPRdFY",
+                   "playlistId": "PLwNv9Hhd8gZjNoQdpd2kBa3fwXNeJjzDX",
+                   "watchEndpointMusicSupportedConfigs": {
+                    "watchEndpointMusicConfig": {
+                     "musicVideoType": "MUSIC_VIDEO_TYPE_OMV"
+                    }
+                   }
+                  }
+                 }
+                }
+               ]
+              }
+             }
+            },
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "Mariah Carey",
+                 "navigationEndpoint": {
+                  "browseEndpoint": {
+                   "browseId": "UCKRnq8aBOCanYlffje7HyvA",
+                   "browseEndpointContextSupportedConfigs": {
+                    "browseEndpointContextMusicConfig": {
+                     "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                    }
+                   }
+                  }
+                 }
+                }
+               ]
+              }
+             }
+            },
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {}
+             }
+            }
+           ],
+           "fixedColumns": [
+            {
+             "musicResponsiveListItemFixedColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "4:09"
+                }
+               ]
+              },
+              "size": "MUSIC_RESPONSIVE_LIST_ITEM_FIXED_COLUMN_SIZE_SMALL"
+             }
+            }
+           ],
+           "playlistItemData": {
+            "playlistSetVideoId": "090796A75D153932",
+            "videoId": "qq09UkPRdFY",
+            "voteSortValue": 1529556727
+           }
+          }
+         },
+         {
+          "musicResponsiveListItemRenderer": {
+           "thumbnail": {
+            "musicThumbnailRenderer": {
+             "thumbnail": {
+              "thumbnails": [
+               {
+                "url": "https://i.ytimg.com/vi/WNIPqafd4As/hqdefault.jpg?sqp=-oaymwEWCJADEOEBIAQqCggAEOADGC0guwJIWg&rs=AMzJL3kU_-E8A2qnXPqa-i8Uzw3UXp5Jcw",
+                "width": 400,
+                "height": 225
+               }
+              ]
+             }
+            }
+           },
+           "overlay": {
+            "musicItemThumbnailOverlayRenderer": {
+             "content": {
+              "musicPlayButtonRenderer": {
+               "playNavigationEndpoint": {
+                "watchEndpoint": {
+                 "videoId": "WNIPqafd4As",
+                 "playlistId": "PLwNv9Hhd8gZjNoQdpd2kBa3fwXNeJjzDX",
+                 "playlistSetVideoId": "476B0DC25D7DEE8A",
+                 "watchEndpointMusicSupportedConfigs": {
+                  "watchEndpointMusicConfig": {
+                   "musicVideoType": "MUSIC_VIDEO_TYPE_OMV"
+                  }
+                 }
+                }
+               }
+              }
+             }
+            }
+           },
+           "flexColumns": [
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "My Heart Will Go On (from the 2007 DVD \"Live In Las Vegas - A...",
+                 "navigationEndpoint": {
+                  "watchEndpoint": {
+                   "videoId": "WNIPqafd4As",
+                   "playlistId": "PLwNv9Hhd8gZjNoQdpd2kBa3fwXNeJjzDX",
+                   "watchEndpointMusicSupportedConfigs": {
+                    "watchEndpointMusicConfig": {
+                     "musicVideoType": "MUSIC_VIDEO_TYPE_OMV"
+                    }
+                   }
+                  }
+                 }
+                }
+               ]
+              }
+             }
+            },
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "Céline Dion",
+                 "navigationEndpoint": {
+                  "browseEndpoint": {
+                   "browseId": "UCFTaSsjx_HiiQrkPXUPiWBg",
+                   "browseEndpointContextSupportedConfigs": {
+                    "browseEndpointContextMusicConfig": {
+                     "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                    }
+                   }
+                  }
+                 }
+                }
+               ]
+              }
+             }
+            },
+            {
+             "musicResponsiveListItemFlexColumnRenderer": {
+              "text": {}
+             }
+            }
+           ],
+           "fixedColumns": [
+            {
+             "musicResponsiveListItemFixedColumnRenderer": {
+              "text": {
+               "runs": [
+                {
+                 "text": "7:22"
+                }
+               ]
+              },
+              "size": "MUSIC_RESPONSIVE_LIST_ITEM_FIXED_COLUMN_SIZE_SMALL"
+             }
+            }
+           ],
+           "playlistItemData": {
+            "playlistSetVideoId": "476B0DC25D7DEE8A",
+            "videoId": "WNIPqafd4As",
+            "voteSortValue": 1529557062
+           }
+          }
+         },
+         {
+          "continuationItemRenderer": {
+           "trigger": "CONTINUATION_TRIGGER_ON_ITEM_PRESCAN_VISIBLE",
+           "continuationEndpoint": {
+            "continuationCommand": {
+             "token": "4qmFsgKHARIkVkxQTHdOdjlIaGQ4Z1pqTm9RZHBkMmtCYTNmd1hOZUpqekRYGjplaDVRVkRwRFIxRnBSVVZGTTA0d1VrUk9hbEpGVWtST1FrMVVTVE5TVkdPU0FRTUl1Z1R3QVFBJTNEmgIiUEx3TnY5SGhkOGdaak5vUWRwZDJrQmEzZndYTmVKanpEWA%3D%3D",
+             "request": "CONTINUATION_REQUEST_TYPE_BROWSE"
+            }
+           }
+          }
+         }
+        ]
+       }
+      }
+     ],
+     "continuations": [
+      {
+       "nextContinuationData": {
+        "continuation": "4qmFsgI0EiRWTFBMd052OUhoZDhnWmpOb1FkcGQya0JhM2Z3WE5lSmp6RFgaDGtnRURDTTBHOEFFQQ%3D%3D"
+       }
+      }
+     ]
+    }
+   },
+   "tabs": [
+    {
+     "tabRenderer": {
+      "content": {
+       "sectionListRenderer": {
+        "contents": [
+         {
+          "musicResponsiveHeaderRenderer": {
+           "thumbnail": {
+            "musicThumbnailRenderer": {
+             "thumbnail": {
+              "thumbnails": [
+               {
+                "url": "https://yt3.googleusercontent.com/Og8rRR7NQcXAhv9BN3Ppo2Ly6ViMjj1Xp1Vqj-OwO8D6dnOVarhJmpCa64ZKkJsR8eVNp5Z4Pos=s576",
+                "width": 576,
+                "height": 576
+               },
+               {
+                "url": "https://yt3.googleusercontent.com/Og8rRR7NQcXAhv9BN3Ppo2Ly6ViMjj1Xp1Vqj-OwO8D6dnOVarhJmpCa64ZKkJsR8eVNp5Z4Pos=s1200",
+                "width": 1200,
+                "height": 1200
+               }
+              ]
+             }
+            }
+           },
+           "title": {
+            "runs": [
+             {
+              "text": "500 Greatest Love Songs Of All Time"
+             }
+            ]
+           },
+           "subtitle": {
+            "runs": [
+             {
+              "text": "Playlist"
+             },
+             {
+              "text": " • "
+             },
+             {
+              "text": "2026"
+             }
+            ]
+           },
+           "description": {
+            "musicDescriptionShelfRenderer": {
+             "description": {
+              "runs": [
+               {
+                "text": "This list on Spotify: "
+               },
+               {
+                "text": "https://open.spotify.com/playlist/4XE..."
+               },
+               {
+                "text": "\n\nCheck out my other playlists: "
+               },
+               {
+                "text": "https://m.youtube.com/channel/UCqo-KC..."
+               },
+               {
+                "text": "\n\nNot much to say about this list, just decided to gather 500 of the greatest love songs in a playlist.Sorry if your favorite love songs didn't make it.P.S. this is for those who love old school.\n\nPut on shuffle for best results."
+               }
+              ]
+             },
+             "shelfStyle": "MUSIC_SHELF_STYLE_OPEN_DIALOG_ON_CLICK"
+            }
+           },
+           "secondSubtitle": {
+            "runs": [
+             {
+              "text": "14M views"
+             },
+             {
+              "text": " • "
+             },
+             {
+              "text": "500 tracks"
+             },
+             {
+              "text": " • "
+             },
+             {
+              "text": "35+ hours"
+             }
+            ]
+           }
+          }
+         }
+        ]
+       }
+      }
+     }
+    }
+   ]
+  }
+ },
+ "frameworkUpdates": {
+  "entityBatchUpdate": {
+   "mutations": [
+    {
+     "entityKey": "ElNtdXNpY19zb3J0X29wdGlvbl9jb21tYW5kX2VudGl0eV9rZXlfVkxQTHdOdjlIaGQ4Z1pqTm9RZHBkMmtCYTNmd1hOZUpqekRYX1RPUF9WT1RFRCDxAigB",
+     "type": "ENTITY_MUTATION_TYPE_REPLACE",
+     "payload": {
+      "commandEntity": {
+       "key": "ElNtdXNpY19zb3J0X29wdGlvbl9jb21tYW5kX2VudGl0eV9rZXlfVkxQTHdOdjlIaGQ4Z1pqTm9RZHBkMmtCYTNmd1hOZUpqekRYX1RPUF9WT1RFRCDxAigB",
+       "command": {
+        "browseSectionListReloadEndpoint": {
+         "continuation": {
+          "reloadContinuationData": {
+           "continuation": "4qmFsgI8EiRWTFBMd052OUhoZDhnWmpOb1FkcGQya0JhM2Z3WE5lSmp6RFgaFG9BWUJ3Z1lDSWdEYUNBUUlBaEFF",
+           "showSpinnerOverlay": true
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityKey": "ElFtdXNpY19zb3J0X29wdGlvbl9jb21tYW5kX2VudGl0eV9rZXlfVkxQTHdOdjlIaGQ4Z1pqTm9RZHBkMmtCYTNmd1hOZUpqekRYX05PX1NPUlQg8QIoAQ%3D%3D",
+     "type": "ENTITY_MUTATION_TYPE_REPLACE",
+     "payload": {
+      "commandEntity": {
+       "key": "ElFtdXNpY19zb3J0X29wdGlvbl9jb21tYW5kX2VudGl0eV9rZXlfVkxQTHdOdjlIaGQ4Z1pqTm9RZHBkMmtCYTNmd1hOZUpqekRYX05PX1NPUlQg8QIoAQ%3D%3D",
+       "command": {
+        "browseSectionListReloadEndpoint": {
+         "continuation": {
+          "reloadContinuationData": {
+           "continuation": "4qmFsgI6EiRWTFBMd052OUhoZDhnWmpOb1FkcGQya0JhM2Z3WE5lSmp6RFgaEm9BWUJ3Z1lDSWdEYUNBQSUzRA%3D%3D",
+           "showSpinnerOverlay": true
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityKey": "ElZtdXNpY19zb3J0X29wdGlvbl9jb21tYW5kX2VudGl0eV9rZXlfVkxQTHdOdjlIaGQ4Z1pqTm9RZHBkMmtCYTNmd1hOZUpqekRYX05FV0VTVF9BRERFRCDxAigB",
+     "type": "ENTITY_MUTATION_TYPE_REPLACE",
+     "payload": {
+      "commandEntity": {
+       "key": "ElZtdXNpY19zb3J0X29wdGlvbl9jb21tYW5kX2VudGl0eV9rZXlfVkxQTHdOdjlIaGQ4Z1pqTm9RZHBkMmtCYTNmd1hOZUpqekRYX05FV0VTVF9BRERFRCDxAigB",
+       "command": {
+        "browseSectionListReloadEndpoint": {
+         "continuation": {
+          "reloadContinuationData": {
+           "continuation": "4qmFsgI8EiRWTFBMd052OUhoZDhnWmpOb1FkcGQya0JhM2Z3WE5lSmp6RFgaFG9BWUJ3Z1lDSWdEYUNBUUlBaEFE",
+           "showSpinnerOverlay": true
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityKey": "ElZtdXNpY19zb3J0X29wdGlvbl9jb21tYW5kX2VudGl0eV9rZXlfVkxQTHdOdjlIaGQ4Z1pqTm9RZHBkMmtCYTNmd1hOZUpqekRYX09MREVTVF9BRERFRCDxAigB",
+     "type": "ENTITY_MUTATION_TYPE_REPLACE",
+     "payload": {
+      "commandEntity": {
+       "key": "ElZtdXNpY19zb3J0X29wdGlvbl9jb21tYW5kX2VudGl0eV9rZXlfVkxQTHdOdjlIaGQ4Z1pqTm9RZHBkMmtCYTNmd1hOZUpqekRYX09MREVTVF9BRERFRCDxAigB",
+       "command": {
+        "browseSectionListReloadEndpoint": {
+         "continuation": {
+          "reloadContinuationData": {
+           "continuation": "4qmFsgI8EiRWTFBMd052OUhoZDhnWmpOb1FkcGQya0JhM2Z3WE5lSmp6RFgaFG9BWUJ3Z1lDSWdEYUNBUUlBUkFE",
+           "showSpinnerOverlay": true
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityKey": "ElNtdXNpY19zb3J0X29wdGlvbl9jb21tYW5kX2VudGl0eV9rZXlfVkxQTHdOdjlIaGQ4Z1pqTm9RZHBkMmtCYTNmd1hOZUpqekRYX0FfWl9USVRMRSDxAigB",
+     "type": "ENTITY_MUTATION_TYPE_REPLACE",
+     "payload": {
+      "commandEntity": {
+       "key": "ElNtdXNpY19zb3J0X29wdGlvbl9jb21tYW5kX2VudGl0eV9rZXlfVkxQTHdOdjlIaGQ4Z1pqTm9RZHBkMmtCYTNmd1hOZUpqekRYX0FfWl9USVRMRSDxAigB",
+       "command": {
+        "browseSectionListReloadEndpoint": {
+         "continuation": {
+          "reloadContinuationData": {
+           "continuation": "4qmFsgI8EiRWTFBMd052OUhoZDhnWmpOb1FkcGQya0JhM2Z3WE5lSmp6RFgaFG9BWUJ3Z1lDSWdEYUNBUUlBUkFG",
+           "showSpinnerOverlay": true
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityKey": "ElRtdXNpY19zb3J0X29wdGlvbl9jb21tYW5kX2VudGl0eV9rZXlfVkxQTHdOdjlIaGQ4Z1pqTm9RZHBkMmtCYTNmd1hOZUpqekRYX0FfWl9BUlRJU1Qg8QIoAQ%3D%3D",
+     "type": "ENTITY_MUTATION_TYPE_REPLACE",
+     "payload": {
+      "commandEntity": {
+       "key": "ElRtdXNpY19zb3J0X29wdGlvbl9jb21tYW5kX2VudGl0eV9rZXlfVkxQTHdOdjlIaGQ4Z1pqTm9RZHBkMmtCYTNmd1hOZUpqekRYX0FfWl9BUlRJU1Qg8QIoAQ%3D%3D",
+       "command": {
+        "browseSectionListReloadEndpoint": {
+         "continuation": {
+          "reloadContinuationData": {
+           "continuation": "4qmFsgI8EiRWTFBMd052OUhoZDhnWmpOb1FkcGQya0JhM2Z3WE5lSmp6RFgaFG9BWUJ3Z1lDSWdEYUNBUUlBUkFH",
+           "showSpinnerOverlay": true
+          }
+         }
+        }
+       }
+      }
+     }
+    },
+    {
+     "entityKey": "ElVtdXNpY19zb3J0X29wdGlvbl9jb21tYW5kX2VudGl0eV9rZXlfVkxQTHdOdjlIaGQ4Z1pqTm9RZHBkMmtCYTNmd1hOZUpqekRYX0FfWl9SRUxFQVNFIPECKAE%3D",
+     "type": "ENTITY_MUTATION_TYPE_REPLACE",
+     "payload": {
+      "commandEntity": {
+       "key": "ElVtdXNpY19zb3J0X29wdGlvbl9jb21tYW5kX2VudGl0eV9rZXlfVkxQTHdOdjlIaGQ4Z1pqTm9RZHBkMmtCYTNmd1hOZUpqekRYX0FfWl9SRUxFQVNFIPECKAE%3D",
+       "command": {
+        "browseSectionListReloadEndpoint": {
+         "continuation": {
+          "reloadContinuationData": {
+           "continuation": "4qmFsgI8EiRWTFBMd052OUhoZDhnWmpOb1FkcGQya0JhM2Z3WE5lSmp6RFgaFG9BWUJ3Z1lDSWdEYUNBUUlBUkFI",
+           "showSpinnerOverlay": true
+          }
+         }
+        }
+       }
+      }
+     }
+    }
+   ],
+   "timestamp": {
+    "seconds": "1790640237",
+    "nanos": 675486609
+   }
+  }
+ },
+ "microformat": {
+  "microformatDataRenderer": {
+   "urlCanonical": "https://music.youtube.com/playlist?list=PLwNv9Hhd8gZjNoQdpd2kBa3fwXNeJjzDX"
+  }
+ }
+}

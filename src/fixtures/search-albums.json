@@ -1,0 +1,480 @@
+{
+ "contents": {
+  "tabbedSearchResultsRenderer": {
+   "tabs": [
+    {
+     "tabRenderer": {
+      "title": "YT Music",
+      "selected": true,
+      "content": {
+       "sectionListRenderer": {
+        "contents": [
+         {
+          "itemSectionRenderer": {
+           "contents": [
+            {
+             "messageRenderer": {
+              "button": {
+               "buttonRenderer": {
+                "style": "STYLE_TEXT",
+                "isDisabled": false,
+                "text": {
+                 "simpleText": "About these results"
+                },
+                "icon": {
+                 "iconType": "INFO_OUTLINE"
+                },
+                "navigationEndpoint": {
+                 "urlEndpoint": {
+                  "url": "https://www.youtube.com/howyoutubeworks/product-features/search/",
+                  "target": "TARGET_NEW_WINDOW"
+                 }
+                },
+                "iconPosition": "BUTTON_ICON_POSITION_TYPE_RIGHT_OF_TEXT"
+               }
+              },
+              "style": {
+               "value": "RENDER_STYLE_PANEL"
+              }
+             }
+            }
+           ]
+          }
+         },
+         {
+          "musicShelfRenderer": {
+           "title": {
+            "runs": [
+             {
+              "text": "Albums"
+             }
+            ]
+           },
+           "contents": [
+            {
+             "musicResponsiveListItemRenderer": {
+              "thumbnail": {
+               "musicThumbnailRenderer": {
+                "thumbnail": {
+                 "thumbnails": [
+                  {
+                   "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w226-h226-l90-rj",
+                   "width": 226,
+                   "height": 226
+                  },
+                  {
+                   "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w544-h544-l90-rj",
+                   "width": 544,
+                   "height": 544
+                  }
+                 ]
+                }
+               }
+              },
+              "overlay": {
+               "musicItemThumbnailOverlayRenderer": {
+                "content": {
+                 "musicPlayButtonRenderer": {
+                  "playNavigationEndpoint": {
+                   "watchPlaylistEndpoint": {
+                    "playlistId": "OLAK5uy_kNhM2yaBTOVwrcZJepB1C9P3-n5_Sfy5c"
+                   }
+                  }
+                 }
+                }
+               }
+              },
+              "flexColumns": [
+               {
+                "musicResponsiveListItemFlexColumnRenderer": {
+                 "text": {
+                  "runs": [
+                   {
+                    "text": "Random Access Memories"
+                   }
+                  ]
+                 }
+                }
+               },
+               {
+                "musicResponsiveListItemFlexColumnRenderer": {
+                 "text": {
+                  "runs": [
+                   {
+                    "text": "Album"
+                   },
+                   {
+                    "text": " • "
+                   },
+                   {
+                    "text": "Daft Punk",
+                    "navigationEndpoint": {
+                     "browseEndpoint": {
+                      "browseId": "UCRr1xG_2WIDs18a6cIiCxeA",
+                      "browseEndpointContextSupportedConfigs": {
+                       "browseEndpointContextMusicConfig": {
+                        "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                       }
+                      }
+                     }
+                    }
+                   },
+                   {
+                    "text": " • "
+                   },
+                   {
+                    "text": "2013"
+                   }
+                  ]
+                 }
+                }
+               }
+              ],
+              "navigationEndpoint": {
+               "browseEndpoint": {
+                "browseId": "MPREb_K8qWMWVqXGi",
+                "browseEndpointContextSupportedConfigs": {
+                 "browseEndpointContextMusicConfig": {
+                  "pageType": "MUSIC_PAGE_TYPE_ALBUM"
+                 }
+                }
+               }
+              }
+             }
+            },
+            {
+             "musicResponsiveListItemRenderer": {
+              "thumbnail": {
+               "musicThumbnailRenderer": {
+                "thumbnail": {
+                 "thumbnails": [
+                  {
+                   "url": "https://yt3.googleusercontent.com/h8VpNWXssWk8Wszs7hWPnokQLvg4nnsAooIdZ7zNfBbDDVItjCEf64nnnGMyYBkOHhL5vpvP0qHdL-5P=w226-h226-l90-rj",
+                   "width": 226,
+                   "height": 226
+                  },
+                  {
+                   "url": "https://yt3.googleusercontent.com/h8VpNWXssWk8Wszs7hWPnokQLvg4nnsAooIdZ7zNfBbDDVItjCEf64nnnGMyYBkOHhL5vpvP0qHdL-5P=w544-h544-l90-rj",
+                   "width": 544,
+                   "height": 544
+                  }
+                 ]
+                }
+               }
+              },
+              "overlay": {
+               "musicItemThumbnailOverlayRenderer": {
+                "content": {
+                 "musicPlayButtonRenderer": {
+                  "playNavigationEndpoint": {
+                   "watchPlaylistEndpoint": {
+                    "playlistId": "OLAK5uy_nSQy7jtbhKEqqa28Bh0GmxYD-BzyOJyyY"
+                   }
+                  }
+                 }
+                }
+               }
+              },
+              "flexColumns": [
+               {
+                "musicResponsiveListItemFlexColumnRenderer": {
+                 "text": {
+                  "runs": [
+                   {
+                    "text": "Lucky DAFT PUNK"
+                   }
+                  ]
+                 }
+                }
+               },
+               {
+                "musicResponsiveListItemFlexColumnRenderer": {
+                 "text": {
+                  "runs": [
+                   {
+                    "text": "Single"
+                   },
+                   {
+                    "text": " • "
+                   },
+                   {
+                    "text": "ZY"
+                   },
+                   {
+                    "text": " • "
+                   },
+                   {
+                    "text": "2024"
+                   }
+                  ]
+                 }
+                }
+               }
+              ],
+              "badges": [
+               {
+                "musicInlineBadgeRenderer": {
+                 "icon": {
+                  "iconType": "MUSIC_EXPLICIT_BADGE"
+                 }
+                }
+               }
+              ],
+              "navigationEndpoint": {
+               "browseEndpoint": {
+                "browseId": "MPREb_lZBXOfVv2Tl",
+                "browseEndpointContextSupportedConfigs": {
+                 "browseEndpointContextMusicConfig": {
+                  "pageType": "MUSIC_PAGE_TYPE_ALBUM"
+                 }
+                }
+               }
+              }
+             }
+            },
+            {
+             "musicResponsiveListItemRenderer": {
+              "thumbnail": {
+               "musicThumbnailRenderer": {
+                "thumbnail": {
+                 "thumbnails": [
+                  {
+                   "url": "https://yt3.googleusercontent.com/Ax7UHoS2uVAq8w_vsASCNQKSw6s_622H-pQOA25uzgENjY0-LRzv_KMLC2bnXz6SeXsJR9Pzb0N2rI1p=w226-h226-l90-rj",
+                   "width": 226,
+                   "height": 226
+                  },
+                  {
+                   "url": "https://yt3.googleusercontent.com/Ax7UHoS2uVAq8w_vsASCNQKSw6s_622H-pQOA25uzgENjY0-LRzv_KMLC2bnXz6SeXsJR9Pzb0N2rI1p=w544-h544-l90-rj",
+                   "width": 544,
+                   "height": 544
+                  }
+                 ]
+                }
+               }
+              },
+              "overlay": {
+               "musicItemThumbnailOverlayRenderer": {
+                "content": {
+                 "musicPlayButtonRenderer": {
+                  "playNavigationEndpoint": {
+                   "watchPlaylistEndpoint": {
+                    "playlistId": "OLAK5uy_mISENyUaJm049do4MZUpbM9_mTIqyWChk"
+                   }
+                  }
+                 }
+                }
+               }
+              },
+              "flexColumns": [
+               {
+                "musicResponsiveListItemFlexColumnRenderer": {
+                 "text": {
+                  "runs": [
+                   {
+                    "text": "daft punk 2"
+                   }
+                  ]
+                 }
+                }
+               },
+               {
+                "musicResponsiveListItemFlexColumnRenderer": {
+                 "text": {
+                  "runs": [
+                   {
+                    "text": "Single"
+                   },
+                   {
+                    "text": " • "
+                   },
+                   {
+                    "text": "leonleon",
+                    "navigationEndpoint": {
+                     "browseEndpoint": {
+                      "browseId": "UCaKL8kDUG6y2iWDxd0av6pg",
+                      "browseEndpointContextSupportedConfigs": {
+                       "browseEndpointContextMusicConfig": {
+                        "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                       }
+                      }
+                     }
+                    }
+                   },
+                   {
+                    "text": " • "
+                   },
+                   {
+                    "text": "2025"
+                   }
+                  ]
+                 }
+                }
+               }
+              ],
+              "navigationEndpoint": {
+               "browseEndpoint": {
+                "browseId": "MPREb_qOombZf3hfT",
+                "browseEndpointContextSupportedConfigs": {
+                 "browseEndpointContextMusicConfig": {
+                  "pageType": "MUSIC_PAGE_TYPE_ALBUM"
+                 }
+                }
+               }
+              }
+             }
+            }
+           ],
+           "continuations": [
+            {
+             "nextContinuationData": {
+              "continuation": "EvoFEglkYWZ0IHB1bmsa7AVFZ1dLQVFJWUFVZ1VhZ29RQ1JBS0VBVVFBeEFFZ2dFWVZVTXlaMWh4WmxKc1dHUmZRbEoxT0dwd1gydHNORzEzZ2dFWVZVTndla00zYW5WM1VXa3Rkazl5TFRrNE5FaHpiSEZCZ2dFWVZVTk9RM2ROZEVOMFJrbE9Sbmh6Tlc1cVZURlVWblpCZ2dFWVZVTkhNM3AwYVZwamNubE9MVFZKYTFGTVNYTk1iMUJSZ2dFWVZVTmtTRXh6Wm5sV2FqbHpkMnhUUkU5YVVDMW5iM0YzZ2dFWVZVTnVRbVZrYzFrMFJITk5XSGcwVjJSdFExQXhNVzlSZ2dFWVZVTlVjV2N3UWpGUGQydFFhRUpMVHkxQlFVUlRha1pSZ2dFWVZVTTNSSFZUVTFWZlZEVlhhVkpRZVVOWWVub3hNelIzZ2dFWVZVTnVjazVyTkRGSWJ6TnpVMkV6UkUxbFNFTnNTbmwzZ2dFWVZVTXRaSFZmY2tSMVdXaHlSa0p1U2tWelNGY3hRelZCZ2dFWVZVTlNaVVF5V0hkUWJtWlNSMUpJU25ocVExSlBRMWhCZ2dFWVZVTXhkbVJNTkhsM00zSjJaa2t0YVVOb1puaExjVmRuZ2dFWVZVTkJRMjA1VFRGSVpqUTVkMVJrU1dSS2RUQkRVR3RSZ2dFWVZVTkJkbUYyZUd0S05WcHVaQzFqVkVKcFRHSlRlRTkzZ2dFWVZVTllaWFZOTjNsb2RrNWhjbWx0TUdReFkybE9RM2xCZ2dFWVZVTjNXVXR4Y213MWFHWTNia2hvTTFObk4yd3daMFZCZ2dFWVZVTm5aM2RhZUdwdmIxQnBlbUpKVHkxUmMwTjZObDkzZ2dFWVZVTlFSRUZIU0RaUmVUQkdkRFZvYzBWYVJtZExSREYzZ2dFWVZVTkNSVlpCTWpBM1JsQlBRVzl0TTJKVVJYb3piRTEzZ2dFWVZVTkZTVk54ZW1oMVlrb3pNVEZ6VkRSRGREUjVlVTFCGPHq0C4%3D"
+             }
+            }
+           ]
+          }
+         }
+        ],
+        "header": {
+         "chipCloudRenderer": {
+          "chips": [
+           {
+            "chipCloudChipRenderer": {
+             "style": {
+              "styleType": "STYLE_SECONDARY"
+             },
+             "navigationEndpoint": {
+              "searchEndpoint": {
+               "query": "daft punk"
+              }
+             },
+             "icon": {
+              "iconType": "CLOSE"
+             },
+             "isSelected": false,
+             "uniqueId": "Clear filters"
+            }
+           },
+           {
+            "chipCloudChipRenderer": {
+             "style": {
+              "styleType": "STYLE_PRIMARY"
+             },
+             "text": {
+              "runs": [
+               {
+                "text": "Albums"
+               }
+              ]
+             },
+             "navigationEndpoint": {
+              "searchEndpoint": {
+               "query": "daft punk",
+               "params": "EgWKAQIYAWoKEAkQChAFEAMQBA%3D%3D"
+              }
+             },
+             "isSelected": true,
+             "uniqueId": "Albums"
+            }
+           },
+           {
+            "chipCloudChipRenderer": {
+             "style": {
+              "styleType": "STYLE_DEFAULT"
+             },
+             "text": {
+              "runs": [
+               {
+                "text": "Community playlists"
+               }
+              ]
+             },
+             "navigationEndpoint": {
+              "searchEndpoint": {
+               "query": "daft punk",
+               "params": "EgeKAQQoAEABagoQCRAKEAUQAxAE"
+              }
+             },
+             "isSelected": false,
+             "uniqueId": "Community playlists"
+            }
+           },
+           {
+            "chipCloudChipRenderer": {
+             "style": {
+              "styleType": "STYLE_DEFAULT"
+             },
+             "text": {
+              "runs": [
+               {
+                "text": "Artists"
+               }
+              ]
+             },
+             "navigationEndpoint": {
+              "searchEndpoint": {
+               "query": "daft punk",
+               "params": "EgWKAQIgAWoKEAkQChAFEAMQBA%3D%3D"
+              }
+             },
+             "isSelected": false,
+             "uniqueId": "Artists"
+            }
+           },
+           {
+            "chipCloudChipRenderer": {
+             "style": {
+              "styleType": "STYLE_DEFAULT"
+             },
+             "text": {
+              "runs": [
+               {
+                "text": "Songs"
+               }
+              ]
+             },
+             "navigationEndpoint": {
+              "searchEndpoint": {
+               "query": "daft punk",
+               "params": "EgWKAQIIAWoKEAkQChAFEAMQBA%3D%3D"
+              }
+             },
+             "isSelected": false,
+             "uniqueId": "Songs"
+            }
+           },
+           {
+            "chipCloudChipRenderer": {
+             "style": {
+              "styleType": "STYLE_DEFAULT"
+             },
+             "text": {
+              "runs": [
+               {
+                "text": "Videos"
+               }
+              ]
+             },
+             "navigationEndpoint": {
+              "searchEndpoint": {
+               "query": "daft punk",
+               "params": "EgWKAQIQAWoKEAkQChAFEAMQBA%3D%3D"
+              }
+             },
+             "isSelected": false,
+             "uniqueId": "Videos"
+            }
+           }
+          ],
+          "collapsedRowCount": 1,
+          "horizontalScrollable": true
+         }
+        }
+       }
+      },
+      "tabIdentifier": "music_search_catalog"
+     }
+    }
+   ]
+  }
+ }
+}

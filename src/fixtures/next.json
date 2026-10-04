@@ -1,0 +1,222 @@
+{
+ "contents": {
+  "singleColumnMusicWatchNextResultsRenderer": {
+   "tabbedRenderer": {
+    "watchNextTabbedResultsRenderer": {
+     "tabs": [
+      {
+       "tabRenderer": {
+        "title": "Up next",
+        "content": {
+         "musicQueueRenderer": {
+          "content": {
+           "playlistPanelRenderer": {
+            "contents": [
+             {
+              "playlistPanelVideoRenderer": {
+               "title": {
+                "runs": [
+                 {
+                  "text": "Giorgio by Moroder"
+                 }
+                ]
+               },
+               "longBylineText": {
+                "runs": [
+                 {
+                  "text": "Daft Punk",
+                  "navigationEndpoint": {
+                   "browseEndpoint": {
+                    "browseId": "UCRr1xG_2WIDs18a6cIiCxeA",
+                    "browseEndpointContextSupportedConfigs": {
+                     "browseEndpointContextMusicConfig": {
+                      "pageType": "MUSIC_PAGE_TYPE_ARTIST"
+                     }
+                    }
+                   }
+                  }
+                 },
+                 {
+                  "text": " • "
+                 },
+                 {
+                  "text": "Random Access Memories",
+                  "navigationEndpoint": {
+                   "browseEndpoint": {
+                    "browseId": "MPREb_K8qWMWVqXGi",
+                    "browseEndpointContextSupportedConfigs": {
+                     "browseEndpointContextMusicConfig": {
+                      "pageType": "MUSIC_PAGE_TYPE_ALBUM"
+                     }
+                    }
+                   }
+                  }
+                 },
+                 {
+                  "text": " • "
+                 },
+                 {
+                  "text": "2013"
+                 }
+                ]
+               },
+               "thumbnail": {
+                "thumbnails": [
+                 {
+                  "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w302-h302-l90-rj",
+                  "width": 302,
+                  "height": 302
+                 },
+                 {
+                  "url": "https://yt3.googleusercontent.com/N55arCGj69gtw6thXK8JUPisxoVYiwuIEQ7I6SGlkEyNcSJ7xIWPe76Vuu1SiUqRyx5w9qvR_zV8fV3CWQ=w544-h544-l90-rj",
+                  "width": 544,
+                  "height": 544
+                 }
+                ]
+               },
+               "lengthText": {
+                "runs": [
+                 {
+                  "text": "9:05"
+                 }
+                ]
+               },
+               "selected": true,
+               "navigationEndpoint": {
+                "watchEndpoint": {
+                 "videoId": "ZFZM6jDTWd4",
+                 "params": "OAHyAQIIAeoEC1pGWk02akRUV2Q0",
+                 "watchEndpointMusicSupportedConfigs": {
+                  "watchEndpointMusicConfig": {
+                   "hasPersistentPlaylistPanel": true,
+                   "musicVideoType": "MUSIC_VIDEO_TYPE_ATV"
+                  }
+                 }
+                }
+               },
+               "videoId": "ZFZM6jDTWd4",
+               "shortBylineText": {
+                "runs": [
+                 {
+                  "text": "Daft Punk"
+                 }
+                ]
+               },
+               "canReorder": true
+              }
+             },
+             {
+              "automixPreviewVideoRenderer": {
+               "content": {
+                "automixPlaylistVideoRenderer": {
+                 "navigationEndpoint": {
+                  "watchPlaylistEndpoint": {
+                   "playlistId": "RDAMVMZFZM6jDTWd4",
+                   "params": "wAEB8gECeAHqBAtaRlpNNmpEVFdkNA%3D%3D"
+                  }
+                 },
+                 "automixMode": "AUTOMIX_MODE_DEFAULT_ON"
+                }
+               }
+              }
+             }
+            ],
+            "isInfinite": false,
+            "shuffleToggleButton": {
+             "toggleButtonRenderer": {
+              "defaultIcon": {
+               "iconType": "MUSIC_SHUFFLE"
+              },
+              "defaultServiceEndpoint": {
+               "watchPlaylistEndpoint": {
+                "params": "wAEB8gECKAE%3D"
+               }
+              },
+              "toggledIcon": {
+               "iconType": "MUSIC_SHUFFLE"
+              },
+              "toggledServiceEndpoint": {
+               "watchPlaylistEndpoint": {
+                "params": "wAEB"
+               }
+              }
+             }
+            }
+           }
+          },
+          "hack": true,
+          "musicQueueConfig": {},
+          "header": {
+           "musicQueueHeaderRenderer": {
+            "title": {
+             "runs": [
+              {
+               "text": "Playing from"
+              }
+             ]
+            },
+            "subtitle": {
+             "runs": [
+              {
+               "text": "Giorgio by Moroder Mix"
+              }
+             ]
+            }
+           }
+          }
+         }
+        }
+       }
+      },
+      {
+       "tabRenderer": {
+        "endpoint": {
+         "browseEndpoint": {
+          "browseId": "MPLYt_K8qWMWVqXGi-3",
+          "browseEndpointContextSupportedConfigs": {
+           "browseEndpointContextMusicConfig": {
+            "pageType": "MUSIC_PAGE_TYPE_TRACK_LYRICS"
+           }
+          }
+         }
+        },
+        "title": "Lyrics"
+       }
+      },
+      {
+       "tabRenderer": {
+        "title": "Comments",
+        "content": {
+         "sectionListRenderer": {
+          "continuations": [
+           {
+            "reloadContinuationData": {
+             "continuation": "Eg0SC1pGWk02akRUV2Q0GAYyHCINIgtaRlpNNmpEVFdkNEILWkZaTTZqRFRXZDRqC1pGWk02akRUV2Q0"
+            }
+           }
+          ]
+         }
+        }
+       }
+      },
+      {
+       "tabRenderer": {
+        "endpoint": {
+         "browseEndpoint": {
+          "browseId": "MPTRt_K8qWMWVqXGi-3",
+          "browseEndpointContextSupportedConfigs": {
+           "browseEndpointContextMusicConfig": {
+            "pageType": "MUSIC_PAGE_TYPE_TRACK_RELATED"
+           }
+          }
+         }
+        },
+        "title": "Related"
+       }
+      }
+     ]
+    }
+   }
+  }
+ }
+}

@@ -1,0 +1,259 @@
+{
+  "schemaVersion": 1,
+  "apiVersion": 1,
+  "id": "youtube-music",
+  "version": "1.0.0",
+  "displayName": "YouTube Music",
+  "description": "YouTube Music catalog, library and playback. Connect by pasting the Cookie header of a signed-in music.youtube.com request from a private window; audio is the original AAC or Opus stream fetched by yt-dlp, with Opus playable while it downloads.",
+  "homepage": "https://music.youtube.com",
+  "icon": "assets/icon.svg",
+  "brandColor": "#FF0033",
+  "defaultPriority": 80,
+  "librarySyncMode": "host-mirror",
+  "playbackTimeoutMs": 600000,
+  "requiredHostFeatures": [
+    "audio-format.opus",
+    "playback.format-support",
+    "settings.form"
+  ],
+  "capabilities": [
+    "auth",
+    "catalog.search",
+    "catalog.entities",
+    "catalog.home",
+    "library.sync",
+    "playlists",
+    "playback.resolve",
+    "playback.prefetch",
+    "playback.progressive",
+    "metadata.artwork",
+    "metadata.bio"
+  ],
+  "settings": [
+    {
+      "id": "connection-status",
+      "label": "Account",
+      "type": "status",
+      "statusKey": "account"
+    },
+    {
+      "id": "playback-status",
+      "label": "Playback",
+      "type": "status",
+      "statusKey": "playback"
+    },
+    {
+      "id": "connect",
+      "label": "Connect with a cookie",
+      "description": "Paste the Cookie header of a signed-in music.youtube.com request, copied from a private window you then close (the Music Assistant method). The session then keeps working until Google ends it, usually weeks or months.",
+      "type": "form",
+      "instructions": [
+        "Open a private (incognito) window, go to music.youtube.com and sign in with your Google account.",
+        "Open the developer tools (Chrome: View → Developer → Developer Tools; Safari: turn on \"Show features for web developers\" in Settings → Advanced first), select Network and type /browse into its filter.",
+        "In YouTube Music open Library → Playlists. Click the /browse request that appears, open Headers, and under Request Headers right-click the Cookie value → Copy value (Firefox: turn on Raw and copy the Cookie line). Selecting it by hand copies a shortened value. It must contain __Secure-3PAPISID.",
+        "Paste it into the Cookie field below.",
+        "Close the private window without signing out, then select Connect. A session no browser opens again keeps working for weeks; one left open in a browser is rotated by Google and soon stops working here.",
+        "When Puros shows \"Session expired\", repeat these steps. SimpMusic Utils users can paste its String export as the cookie and, optionally, its Netscape export into the second field."
+      ],
+      "fields": [
+        {
+          "id": "cookie-string",
+          "label": "Cookie",
+          "placeholder": "__Secure-3PAPISID=…; SAPISID=…; LOGIN_INFO=…; …",
+          "multiline": true,
+          "sensitive": true,
+          "required": true,
+          "maxLength": 65536
+        },
+        {
+          "id": "cookie-netscape",
+          "label": "Netscape export (SimpMusic Utils)",
+          "placeholder": "# Netscape HTTP Cookie File",
+          "multiline": true,
+          "sensitive": true,
+          "required": false,
+          "maxLength": 65536
+        }
+      ],
+      "submit": {
+        "label": "Connect",
+        "capability": "auth",
+        "method": "login"
+      }
+    },
+    {
+      "id": "switch-identity",
+      "label": "Switch account or channel",
+      "description": "If your browser is signed in to several Google accounts or you use a brand channel, this moves to the next one (the status shows which). The library then syncs for that account.",
+      "type": "action",
+      "action": {
+        "capability": "auth",
+        "method": "login",
+        "args": [
+          {
+            "step": "switch-identity"
+          }
+        ]
+      }
+    },
+    {
+      "id": "sync",
+      "label": "Sync library",
+      "type": "action",
+      "action": {
+        "capability": "library.sync",
+        "method": "enumerate",
+        "args": [
+          {}
+        ]
+      }
+    },
+    {
+      "id": "disconnect",
+      "label": "Disconnect",
+      "description": "Deletes the saved session from this Mac. Your Google sign-in in the browser is not affected.",
+      "type": "action",
+      "action": {
+        "capability": "auth",
+        "method": "logout"
+      },
+      "destructive": true
+    }
+  ],
+  "permissions": {
+    "networkOrigins": [
+      "https://music.youtube.com",
+      "https://www.youtube.com",
+      "https://*.googlevideo.com",
+      "https://*.ytimg.com",
+      "https://*.ggpht.com",
+      "https://*.googleusercontent.com"
+    ],
+    "secrets": [
+      "session"
+    ],
+    "helpers": [
+      {
+        "id": "ytdlp",
+        "executable": "helper/dist/yt-dlp",
+        "allowedArguments": [
+          "--ignore-config",
+          "--config-locations",
+          "-"
+        ]
+      },
+      {
+        "id": "remux-ogg",
+        "executable": "helper/dist/ffmpeg",
+        "processPriority": "below-normal",
+        "argumentTemplate": [
+          "-hide_banner",
+          "-loglevel",
+          "error",
+          "-nostdin",
+          "-threads",
+          "1",
+          "-i",
+          {
+            "cachePath": "input"
+          },
+          "-map",
+          "0:a:0",
+          "-vn",
+          "-sn",
+          "-dn",
+          "-c:a",
+          "copy",
+          "-map_metadata",
+          "-1",
+          "-f",
+          "ogg",
+          {
+            "cachePath": "output"
+          }
+        ]
+      },
+      {
+        "id": "remux-m4a",
+        "executable": "helper/dist/ffmpeg",
+        "processPriority": "below-normal",
+        "argumentTemplate": [
+          "-hide_banner",
+          "-loglevel",
+          "error",
+          "-nostdin",
+          "-threads",
+          "1",
+          "-i",
+          {
+            "cachePath": "input"
+          },
+          "-map",
+          "0:a:0",
+          "-vn",
+          "-sn",
+          "-dn",
+          "-c:a",
+          "copy",
+          "-map_metadata",
+          "-1",
+          "-movflags",
+          "+faststart",
+          "-f",
+          "ipod",
+          {
+            "cachePath": "output"
+          }
+        ]
+      },
+      {
+        "id": "probe",
+        "executable": "helper/dist/ffmpeg",
+        "processPriority": "below-normal",
+        "argumentTemplate": [
+          "-hide_banner",
+          "-nostdin",
+          "-threads",
+          "1",
+          "-i",
+          {
+            "cachePath": "input"
+          },
+          "-map",
+          "0:a:0",
+          "-f",
+          "null",
+          "-"
+        ]
+      }
+    ]
+  },
+  "build": {
+    "steps": [
+      {
+        "command": "helper/build.sh",
+        "platforms": [
+          "darwin"
+        ]
+      }
+    ],
+    "extraResources": [
+      {
+        "from": "assets",
+        "to": "providers/youtube-music/assets",
+        "filter": [
+          "icon.svg"
+        ]
+      },
+      {
+        "from": "helper/dist",
+        "to": "providers/youtube-music/helper/dist"
+      }
+    ],
+    "binaries": [
+      "providers/youtube-music/helper/dist/yt-dlp",
+      "providers/youtube-music/helper/dist/deno",
+      "providers/youtube-music/helper/dist/ffmpeg"
+    ]
+  }
+}

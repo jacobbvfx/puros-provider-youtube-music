@@ -1,0 +1,24 @@
+{
+  "name": "puros-provider-youtube-music",
+  "private": true,
+  "description": "YouTube Music provider plugin for Puros.",
+  "license": "MIT",
+  "author": "jacobbvfx (https://github.com/jacobbvfx)",
+  "type": "module",
+  "engines": {
+    "node": ">=22.12"
+  },
+  "scripts": {
+    "validate": "puros-provider validate",
+    "typecheck": "tsc",
+    "test": "vitest run",
+    "build": "puros-provider build",
+    "package": "puros-provider pack"
+  },
+  "devDependencies": {
+    "@types/node": "^24.12.2",
+    "puros-provider-sdk": "^1.0.0",
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.7"
+  }
+}
