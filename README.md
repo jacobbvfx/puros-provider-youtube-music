@@ -90,7 +90,7 @@ npm run package          # runs helper/build.sh, writes release/puros-provider-y
 
 ## Releases
 
-GitHub Actions builds every push and pull request on macOS and uploads the package as a workflow artifact. Pushing a tag `v<version>` that matches `version` in `provider.manifest.json` publishes a GitHub release with the ZIP and its `.sha256`. When the repository secret `PUROS_PROVIDER_SIGNING_KEY` holds an Ed25519 publisher key (`npx puros-provider keygen --out=<path outside the repo>`), release packages are signed with it; Puros pins that key on first install.
+GitHub Actions builds every push and pull request on macOS. Every push to `main` publishes a release `v<version>-build.<run>` with the compiled `puros-provider-youtube-music-<version>.zip` and its `.sha256`, so the newest build is always on the [latest release](../../releases/latest). Pushing a tag `v<version>` that matches `version` in `provider.manifest.json` publishes the versioned release `v<version>`. When the repository secret `PUROS_PROVIDER_SIGNING_KEY` holds an Ed25519 publisher key (`npx puros-provider keygen --out=<path outside the repo>`), released packages are signed with it; Puros pins that key on first install.
 
 ## Licenses of bundled programs
 
