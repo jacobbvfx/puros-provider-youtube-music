@@ -193,6 +193,8 @@ export class YtmPlaybackRuntime {
       // Gapless queueing needs a finished file, never a growing one.
       return await this.join(request.sourceId, context, 'prefetch', undefined).done.promise
     } catch (error) {
+      // Core greys out and skips a track YouTube will not stream; other failures just skip the prefetch.
+      if (errorCode(error) === 'TRACK_UNAVAILABLE') throw error
       if (errorCode(error) !== 'CANCELLED') {
         await this.host.logger.info('YouTube Music prefetch skipped', { sourceId: request.sourceId, code: errorCode(error) }).catch(() => {})
       }

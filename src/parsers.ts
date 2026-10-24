@@ -251,6 +251,12 @@ export interface TrackContext {
   useIndexAsTrackNumber?: boolean
 }
 
+/**
+ * YouTube Music greys out rows the account cannot play (region locks, removed
+ * uploads) with this display policy and gives no reason.
+ */
+const GREYED_OUT_POLICY = 'MUSIC_ITEM_RENDERER_DISPLAY_POLICY_GREY_OUT'
+
 function buildTrack(input: {
   videoId: string
   title: string
@@ -259,6 +265,8 @@ function buildTrack(input: {
   durationMs: number | null
   artworkUrl: string | null
   trackNumber: number | null
+  /** Omitted for renderers that say nothing about availability. */
+  playable?: boolean
 }): ProviderTrackV1 {
   return {
     sourceId: input.videoId,
@@ -275,6 +283,7 @@ function buildTrack(input: {
     genres: [],
     artworkUrl: input.artworkUrl,
     providerUrl: trackUrl(input.videoId),
+    ...(input.playable === undefined ? {} : { playable: input.playable, unavailableReason: input.playable ? null : 'other' }),
   }
 }
 
@@ -308,6 +317,7 @@ function trackFromListItem(renderer: JsonRecord, videoId: string, context: Track
     durationMs,
     artworkUrl: bestThumbnail(renderer.thumbnail) ?? context.album?.artworkUrl ?? null,
     trackNumber: context.useIndexAsTrackNumber && Number.isSafeInteger(index) && index > 0 ? index : null,
+    playable: renderer.musicItemRendererDisplayPolicy !== GREYED_OUT_POLICY,
   })
 }
 
@@ -752,6 +762,8 @@ export function parsePanelVideo(value: unknown): ProviderTrackV1 | null {
     durationMs: parseDurationMs(runsText(renderer.lengthText)),
     artworkUrl: bestThumbnail(renderer.thumbnail),
     trackNumber: null,
+    // Watch queues mark the entries they will skip with an explanation instead.
+    playable: renderer.unplayableText === undefined,
   })
 }
 

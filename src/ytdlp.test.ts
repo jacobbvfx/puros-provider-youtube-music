@@ -84,7 +84,7 @@ describe('yt-dlp output', () => {
   it('classifies failures into typed errors without echoing helper output', () => {
     const cases: Array<[string, string, boolean]> = [
       ['WARNING: The provided YouTube account cookies are no longer valid.\nERROR: Sign in to confirm you’re not a bot', 'AUTH_EXPIRED', false],
-      ['ERROR: [youtube] x: Video unavailable', 'NOT_FOUND', false],
+      ['ERROR: [youtube] x: Video unavailable', 'TRACK_UNAVAILABLE', false],
       ['ERROR: [youtube] x: Requested format is not available', 'NOT_SUPPORTED', false],
       ['ERROR: unable to download video data: HTTP Error 403: Forbidden', 'NETWORK', true],
       ['ERROR: HTTP Error 429: Too Many Requests', 'RATE_LIMITED', true],
@@ -94,6 +94,19 @@ describe('yt-dlp output', () => {
       const error = classifyYtDlpFailure(`${stderr}\nsecret-cookie-value`, 1)
       expect(error.providerError).toMatchObject({ code, retryable })
       expect(error.message).not.toContain('secret-cookie-value')
+    }
+  })
+
+  it('says why a track is unavailable so core can grey it out', () => {
+    const cases: Array<[string, string]> = [
+      ['ERROR: [youtube] x: Video unavailable. The uploader has not made this video available in your country', 'region'],
+      ['ERROR: [youtube] x: Private video. Sign in if you have been granted access', 'removed'],
+      ['ERROR: [youtube] x: This video is no longer available because the video has been removed', 'removed'],
+      ['ERROR: [youtube] x: Join this channel to get access to members-only content', 'subscription'],
+      ['ERROR: [youtube] x: Video unavailable', 'other'],
+    ]
+    for (const [stderr, reason] of cases) {
+      expect(classifyYtDlpFailure(stderr, 1).providerError).toMatchObject({ code: 'TRACK_UNAVAILABLE', retryable: false, details: { reason } })
     }
   })
 })

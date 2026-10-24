@@ -1,4 +1,4 @@
-import { ProviderApiError, providerError, type ProviderHelpersHostV1 } from 'puros-provider-sdk'
+import { ProviderApiError, providerError, type ProviderHelpersHostV1, type ProviderTrackUnavailableReasonV1 } from 'puros-provider-sdk'
 import { trackUrl } from './ids'
 
 /**
@@ -143,6 +143,9 @@ export function classifyYtDlpFailure(stderr: string, exitCode: number | null): P
   const text = stderr.toLowerCase()
   const error = (code: Parameters<typeof providerError>[0], message: string, retryable: boolean) =>
     new ProviderApiError(providerError(code, message, { retryable, details: { helper: 'yt-dlp', exitCode: exitCode ?? -1 } }))
+  // Core greys these out and skips them, as YouTube Music does.
+  const unavailable = (reason: ProviderTrackUnavailableReasonV1, message: string) =>
+    new ProviderApiError(providerError('TRACK_UNAVAILABLE', message, { retryable: false, details: { helper: 'yt-dlp', exitCode: exitCode ?? -1, reason } }))
   if (/cookies are no longer valid|sign in to confirm you.re not a bot|login_required|please sign in/.test(text)) {
     return error('AUTH_EXPIRED', 'YouTube rejected the imported session for playback. Paste a new cookie in Settings → Accounts → YouTube Music.', false)
   }
@@ -150,10 +153,16 @@ export function classifyYtDlpFailure(stderr: string, exitCode: number | null): P
     return error('PERMISSION_DENIED', 'YouTube requires age verification for this track on the signed-in account', false)
   }
   if (/members-only|join this channel|requires payment|premium members/.test(text)) {
-    return error('PERMISSION_DENIED', 'This track is not available to the signed-in account', false)
+    return unavailable('subscription', 'This track is not available to the signed-in account')
   }
-  if (/video unavailable|this video is not available|video has been removed|private video|not available in your country|this video is unavailable/.test(text)) {
-    return error('NOT_FOUND', 'This track is unavailable on YouTube Music', false)
+  if (/not available in your country|blocked it in your country|uploader has not made this video available in your country/.test(text)) {
+    return unavailable('region', 'This track is not available on YouTube Music in your country')
+  }
+  if (/video has been removed|private video|account associated with this video has been terminated/.test(text)) {
+    return unavailable('removed', 'This track was removed from YouTube Music')
+  }
+  if (/video unavailable|this video is not available|this video is unavailable/.test(text)) {
+    return unavailable('other', 'This track is unavailable on YouTube Music')
   }
   if (/requested format is not available|no video formats found/.test(text)) {
     return error('NOT_SUPPORTED', 'YouTube offered no audio-only AAC or Opus stream for this track', false)

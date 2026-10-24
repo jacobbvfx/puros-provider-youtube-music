@@ -144,6 +144,28 @@ describe('entity pages', () => {
     expect(next.continuation).toMatchObject({ style: 'command' })
   })
 
+  it('marks rows YouTube Music greys out as unplayable and the rest as playable', () => {
+    const [raw] = parseContinuationItems(playlistContinuation).items as Array<{ musicResponsiveListItemRenderer: Record<string, unknown> }>
+    const greyed = { musicResponsiveListItemRenderer: { ...raw!.musicResponsiveListItemRenderer, musicItemRendererDisplayPolicy: 'MUSIC_ITEM_RENDERER_DISPLAY_POLICY_GREY_OUT' } }
+    const [playable, unavailable] = tracksOf([raw, greyed])
+    expect(playable).toMatchObject({ playable: true, unavailableReason: null })
+    expect(unavailable).toMatchObject({ sourceId: playable!.sourceId, playable: false, unavailableReason: 'other' })
+  })
+
+  it('marks watch-queue entries YouTube will skip', () => {
+    expect(parseNextTrack(next, 'ZFZM6jDTWd4')).toMatchObject({ playable: true })
+    // Mark every object for this video; only the panel renderer reads the field.
+    const queue = structuredClone(next) as unknown
+    const markUnplayable = (value: unknown): void => {
+      if (!value || typeof value !== 'object') return
+      const record = value as Record<string, unknown>
+      if (record.videoId === 'ZFZM6jDTWd4') record.unplayableText = { runs: [{ text: 'Video not available' }] }
+      Object.values(record).forEach(markUnplayable)
+    }
+    markUnplayable(queue)
+    expect(parseNextTrack(queue, 'ZFZM6jDTWd4')).toMatchObject({ playable: false, unavailableReason: 'other' })
+  })
+
   it('reads the exact requested track from a next response', () => {
     expect(parseNextTrack(next, 'ZFZM6jDTWd4')).toMatchObject({
       sourceId: 'ZFZM6jDTWd4', title: 'Giorgio by Moroder', durationMs: 545_000, albumSourceId: 'MPREb_K8qWMWVqXGi',
